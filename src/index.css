@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: border-box;
+  color-scheme: light dark;
+  color: #202B3B;
+  background-color: #F5F5F5;
+  place-items: center;
+  /* min-width: 320px;
+  min-height: 100%; */
+  /* overflow: hidden; */
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding:20px;
+  width: 100%;
+  height: 100%;
+}
+
+.left, .right {
+  flex: 1;
+}
+
+.left {
+  background-color: #E9ECEF;
+  height: 100%;
+  border-radius: 20px;
+  margin-bottom: 40px;
+} 
+
+.right
+{
+  height: 90vh;
+  margin-bottom: 40px;
+}
+
+.breeze{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.mainwrapper{
+  padding: 10px 15px;
+}
+
+.weatherInfoWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  padding: 15px;
+  column-gap: 20px;
+  height: 50%;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 10px
+}
+
+.box-left {
+border: 1px solid #F1F3F5;;
+width: 120px;
+border-radius: 15px;
+background-color: #F1F3F5;
+height: 702px;
+}
+
+.box-center {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 15px;
+  height: 100%;
+  margin-right: -10px;
+}
+
+.box-right {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  border: 1px solid #F1F3F5;
+  background-color: #F1F3F5 ;
+  width: 40%;
+  border-radius: 15px;
+  height: 650px;
+  padding: 10px 25px;
+  margin: 5px 10px;
+} 
+
+.beactive{
+  background-color: rgb(167, 23, 23);
+}
+
+.right-card{
+  
+}
+
+.card-details{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-grow: 1; */
+  /* border: 1px solid red; */
+  border-bottom: 1px solid grey;
+  width: 100%;
+}
+
+.card-detitems{
+  /* border: 1px solid red; */
+  margin-bottom: 20px;
+}

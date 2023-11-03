@@ -1,0 +1,168 @@
+.cities-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: inherit;
+  border-radius: 15px;
+  height: 100%;
+  padding: 10px
+  }
+  
+  .left-box {
+    background-color: #ccc;
+    padding: 10px;
+  }
+  
+  .right-box {
+    background-color: #eee;
+    padding: 10px;
+  }
+  
+  .cities-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 1px solid #ccc; */
+    width: 80%;
+    margin-right: 30px;
+
+  }
+  .cities-card{
+    /* flex-grow: 1; */
+    margin: 10px 0;
+    background-color: #F1F3F5 ;
+    padding: 10px 20px;
+    border-radius: 15px;
+    height: 120px; 
+    width: 100%;
+  }
+
+  .card-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+  }
+
+  .icon-city{
+   display: flex;
+   flex-direction: row;
+   align-items: center
+  }
+
+  .temperature{
+    margin-top: -30px;
+  }
+
+  .temperature p{
+   font-size: 24px;
+  }
+
+
+  .City{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .iconcity{
+    margin-top: -20px;
+  }
+
+  .iconcity p{
+    font-size: 20px;
+    font-weight: 900;
+  }
+  .icontime{
+  margin-top: -15px;
+  }
+
+  .icontime p{
+    font-size: 12px;
+    }
+
+  .Icon{
+    margin-right: 25px;
+    margin-top: -10px;
+  }
+
+  .cityDets{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   /* margin: auto; */
+  }
+
+  .detailsCity{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    border-bottom: 1px solid grey;
+    padding: 15px;
+  }
+
+  .forecastToday{
+    /* border: 1px solid red; */
+    border-bottom: 1px solid grey;
+    padding: 15px;
+  }
+
+
+  .threeDayForecast{
+    /* border: 1px solid red; */
+    padding: 15px;
+  }
+
+  .sun-icon{
+    margin-right: -100px;
+  }
+
+
+  .detailsCityNameDesc{
+    
+  }
+  .detailsIcon{
+  
+  }
+
+  .detailsDesc{
+
+  }
+
+  .detailsDesc p{
+    font-size: 10px;
+  }
+  
+  .detailsTemp {
+
+  }
+
+  .detailsTemp p {
+    font-size: 20px;
+  }
+
+
+  .forcastDetails{
+    border-right: 1px solid black;
+    padding:10px 20px;
+  }
+
+  .threeDayForecast{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .threedayForecastDetails{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .forcastDetailsContainer{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sunny{
+    margin-top: 10px;
+  }

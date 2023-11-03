@@ -1,0 +1,17 @@
+.settings-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* left box is 2 times wider than the right box */
+    grid-gap: 10px; /* add gap between the boxes */
+    margin: 10px;
+  }
+
+  .left-box {
+    background-color: #ccc;
+    padding: 10px;
+  }
+  
+  .right-box {
+    background-color: #eee;
+    padding: 10px;
+  }
+  
